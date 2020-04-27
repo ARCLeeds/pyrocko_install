@@ -52,7 +52,8 @@ dotted two (1000,1000) matrices in 11.6 ms
 dotted two (4000) vectors in 6.02 us
 SVD of (2000,1000) matrix in 0.907 s
 
-$ THEANO_FLAGS=mode=FAST_RUN,device=cpu,floatX=float32 python test/gpu_test.py     [Elemwise{exp,no_inplace}(<TensorType(float32, vector)>)]
+$ THEANO_FLAGS=mode=FAST_RUN,device=cpu,floatX=float32 python test/gpu_test.py     
+[Elemwise{exp,no_inplace}(<TensorType(float32, vector)>)]
 Looping 1000 times took 2.187031 seconds
 Result is [1.2317803 1.6187934 1.5227807 ... 2.2077181 2.2996776 1.6232328]
 Used the cpu
