@@ -88,5 +88,6 @@ $ cd beat_src/beat
 $ python setup.py install
 
 # then do a fast check for beat running
+module remove openmpi # we need to unload the openmpi module as we've installed openmpi via conda
 beat init --help
 ```
